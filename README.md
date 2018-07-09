@@ -5,6 +5,7 @@ Taps into the sickrage api and lets you perform basic commands
 
 To get started put `/custom_components/sickrage/__init__.py` and `/custom_components/sickrage/services.yaml`   
 `<config directory>/custom_components/sickrage/__init__.py`  and `<config directory>/custom_components/sickrage/services.yaml`
+
 **Example configuration.yaml:**
 
 ```yaml
