@@ -14,14 +14,7 @@ sickrage:
   host: 'http://example.com:8081/api'
   api_key: 'your_api_key'
 ```
-
-**Configuration variables:**  
-  
-key | description  
-:--- | :---  
-none | none  
-  
-  
+ 
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)  
 ***
 Due to how `custom_componentes` are loaded, it is normal to see a `ModuleNotFoundError` error on first boot after adding this, to resolve it, restart Home-Assistant.
