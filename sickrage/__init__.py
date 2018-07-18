@@ -11,12 +11,13 @@ from homeassistant.helpers.entity import Entity
 
 requests.packages.urllib3.disable_warnings()
 
+__version__ = '0.0.2'
+
 DOMAIN = 'sickrage'
 
 ICON = 'progress-download'
 COMPONENT_AUTHOR = 'swetoast'
 COMPONENT_NAME = 'Sickrage'
-COMPONENT_VERSION = '0.0.1'
 COMPONENT_REPO = 'https://github.com/custom-components/sickrage'
 
 TIMEOUT = 10
