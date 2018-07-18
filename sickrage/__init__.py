@@ -34,7 +34,7 @@ _LOGGER = logging.getLogger(__name__)
 def setup(hass, config):
     """Set up the component."""
     _LOGGER.info('Starting setup')
-    _LOGGER.warning('%s %s is starting, report any issues to %s',COMPONENT_NAME, COMPONENT_VERSION, COMPONENT_REPO)
+    _LOGGER.warning('%s %s is starting, report any issues to %s',__version__, COMPONENT_REPO)
     host = config[DOMAIN][CONF_HOST]
     api = config[DOMAIN][CONF_API_KEY]
 
