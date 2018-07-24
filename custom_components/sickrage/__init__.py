@@ -11,7 +11,7 @@ from homeassistant.helpers.entity import Entity
 
 requests.packages.urllib3.disable_warnings()
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 DOMAIN = 'sickrage'
 ICON = 'progress-download'
