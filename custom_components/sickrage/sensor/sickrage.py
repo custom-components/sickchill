@@ -14,7 +14,7 @@ requests.packages.urllib3.disable_warnings()
 SCAN_INTERVAL = timedelta(minutes=5)
 DOMAIN = 'sickrage'
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 ICON = 'progress-download'
 COMPONENT_AUTHOR = 'swetoast'
