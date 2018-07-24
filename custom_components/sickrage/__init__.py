@@ -14,10 +14,6 @@ requests.packages.urllib3.disable_warnings()
 __version__ = '0.0.2'
 
 DOMAIN = 'sickrage'
-
-self._host = hass.data[DOMAIN]['host']
-self._api = hass.data[DOMAIN]['api_key']
-
 ICON = 'progress-download'
 COMPONENT_AUTHOR = 'swetoast'
 COMPONENT_NAME = 'Sickrage'
@@ -40,6 +36,8 @@ def setup(hass, config):
     _LOGGER.warning(' %s is starting, report any issues to %s',__version__, COMPONENT_REPO)
     host = config[DOMAIN][CONF_HOST]
     api = config[DOMAIN][CONF_API_KEY]
+    hass.data[DOMAIN][CONF_HOST] = host
+    hass.data[DOMAIN][CONF_API_KEY] = api
 
     def restart_sickrage_service(call):
         """Set up recuring update."""
