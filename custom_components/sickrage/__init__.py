@@ -15,6 +15,9 @@ __version__ = '0.0.2'
 
 DOMAIN = 'sickrage'
 
+self._host = hass.data[DOMAIN]['host']
+self._api = hass.data[DOMAIN]['api_key']
+
 ICON = 'progress-download'
 COMPONENT_AUTHOR = 'swetoast'
 COMPONENT_NAME = 'Sickrage'
