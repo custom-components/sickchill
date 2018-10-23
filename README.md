@@ -1,24 +1,24 @@
-# Sickrage
+# Sickchill
   
 [![Version](https://img.shields.io/badge/version-0.1.0-green.svg?style=for-the-badge)](#) [![mantained](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)](#) [![maintainer](https://img.shields.io/badge/maintainer-swetoast-blue.svg?style=for-the-badge)](#)  
 
-Taps into the [Sickrage](https://sickrage.github.io/) API and lets you perform basic commands, like restart, daily searches, postprocess, etc.
+Taps into the [Sickchill](https://sickchill.github.io/) API and lets you perform basic commands, like restart, daily searches, postprocess, etc.
 
 To get started put the follwing files
 ```
-/custom_components/sickrage/__init__.py
-/custom_components/sickrage/services.yaml
+/custom_components/sickchill/__init__.py
+/custom_components/sickchill/services.yaml
 ```
 into
 ```
-<config directory>/custom_components/sickrage/__init__.py
-<config directory>/custom_components/sickrage/services.yaml
+<config directory>/custom_components/sickchill/__init__.py
+<config directory>/custom_components/sickchill/services.yaml
 ```
 
 **Example configuration.yaml:**
 
 ```yaml
-sickrage:
+sickchill:
   host: 'http://example.com:8081/api'
   api_key: 'your_api_key'
 ```

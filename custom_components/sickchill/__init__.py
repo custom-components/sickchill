@@ -1,5 +1,5 @@
 """
-This will connect the Sickrage platform to Homeassistant, showing stats and switches from Sickrage.
+This will connect the Sickchill platform to Homeassistant, showing stats and switches from Sickchill.
 """
 import logging
 import time
@@ -15,12 +15,12 @@ requests.packages.urllib3.disable_warnings()
 
 __version__ = '0.1.0'
 
-DOMAIN = 'sickrage'
+DOMAIN = 'sickchill'
 DOMAIN_DATA = DOMAIN + '_data'
 ICON = 'progress-download'
 COMPONENT_AUTHOR = 'swetoast'
-COMPONENT_NAME = 'Sickrage'
-COMPONENT_REPO = 'https://github.com/custom-components/sickrage'
+COMPONENT_NAME = 'Sickchill'
+COMPONENT_REPO = 'https://github.com/custom-components/sickchill'
 
 TIMEOUT = 10
 INTERVAL = timedelta(minutes=10)
