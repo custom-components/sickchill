@@ -96,6 +96,6 @@ def setup(hass, config):
 
 def generic_command(host, api, command):
     """Place docstring here!"""
-    fetchurl = host + '/' + api + '/?cmd=' + command
+    fetchurl = "{host}/{api}/?cmd={command}".format(host=host, api=api, command=command)
     result = requests.get(fetchurl, timeout=TIMEOUT, verify=False).json()
     return result
