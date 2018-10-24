@@ -13,7 +13,7 @@ from homeassistant.helpers.entity import Entity
 
 requests.packages.urllib3.disable_warnings()
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 DOMAIN = 'sickchill'
 DOMAIN_DATA = DOMAIN + '_data'
